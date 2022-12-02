@@ -1,0 +1,51 @@
+#include<stdio.h>
+
+void main()
+
+{
+char str[20];
+int c=0,flag;
+printf("enter any string: ");
+gets(str);
+if( (str[0]>='a'&&str[0]<='z')
+    ||
+    (str[0]>='A'&&str[0]<='Z')
+    ||
+    (str[0]=='_')
+   )
+       {
+   for(int i=1;i<=strlen(str);i++)
+   {
+     if((str[i]>='a'&& str[i]<='z')
+     ||
+      (str[i]>='A' && str[i]<='Z')
+     ||
+     (str[i]>='0'&& str[i]<='9')
+     ||
+     (str[i]=='-')
+     )
+     {
+ c++;
+     }
+   }
+    if(c==strlen(str))
+    {
+      flag=0;
+    }
+  }
+ else
+ {
+  flag=1;
+ }
+if(flag==1)
+ printf("%s is not valid identifier",str);
+ else
+ printf("%s is valid identifier",str);
+getch();
+}
+
+
+
+
+
+
