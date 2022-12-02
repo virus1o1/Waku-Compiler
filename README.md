@@ -9,4 +9,4 @@ Funtions Of this Compiler:
 * Symbol table management
 
 # Author: 
-**Abdullah Al Maruf, Md. Abu Al Siam Talukdar & Afifatun Jannat.**
+**Abdullah Al Maruf, Md. Abu Al Siam Talukder & Afifatun Jannat.**
