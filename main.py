@@ -171,7 +171,7 @@ def sym(inde):
     # BG Image
     Label(window, image=back_im, border=0).place(x=0, y=0)
     # Title
-    Label(window,text="Symbol Table Managment",width = 29,font='roboto 15 bold', bg='#804FFF',fg='#FFFFFF').place(x=370,y=150)
+    Label(window,text="Symbol Table Management",width = 29,font='roboto 15 bold', bg='#804FFF',fg='#FFFFFF').place(x=370,y=150)
 
     #Frame  
     frame1 = Frame(window,bg="#0f2337",padx=5,pady=5)
